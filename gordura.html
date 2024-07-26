@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Gordura Corporal - HealthTracker</title>
+    <link rel="stylesheet" href="styles-gordura.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Calculadora de IMC</a></li>
+            <li><a href="tmb.html">Calculadora de TMB</a></li>
+            <li><a href="gordura.html">Calculadora de Gordura Corporal</a></li>
+        </ul>
+    </nav>
+    <h1>Calculadora de Gordura Corporal</h1>
+    <form id="gordura-form">
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" required>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+        </select>
+        <label for="idade">Idade (anos):</label>
+        <input type="number" id="idade" required>
+        <label for="altura">Altura (cm):</label>
+        <input type="number" id="altura" required>
+        <label for="peso">Peso (kg):</label>
+        <input type="number" id="peso" required>
+        <label for="circunferenciaCintura">Circunferência da cintura (cm):</label>
+        <input type="number" id="circunferenciaCintura" required>
+        <label for="circunferenciaPescoco">Circunferência do pescoço (cm):</label>
+        <input type="number" id="circunferenciaPescoco" required>
+        <label for="circunferenciaQuadril">Circunferência do quadril (cm) (apenas feminino):</label>
+        <input type="number" id="circunferenciaQuadril">
+        <label for="atividade">Nível de atividade física (dias por semana):</label>
+        <input type="number" id="atividade" required>
+        <button type="button" onclick="calcularGorduraCorporal()">Calcular Gordura Corporal</button>
+    </form>
+    <div id="resultado"></div>
+    <script src="gordura.js"></script>
+</body>
+</html>

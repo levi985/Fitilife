@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC - HealthTracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Calculadora de IMC</a></li>
+            <li><a href="tbm.html">Calculadora de TMB</a></li>
+            <li><a href="gordura.html">Calculadora de Gordura Corporal</a></li>
+        </ul>
+    </nav>
+    <h1>Calculadora de IMC</h1>
+    <form id="imc-form">
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" required>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+        </select>
+        <label for="altura">Altura (cm):</label>
+        <input type="number" id="altura" required>
+        <label for="peso">Peso (kg):</label>
+        <input type="number" id="peso" required>
+        <button type="button" onclick="calcularIMC()">Calcular IMC</button>
+    </form>
+    <div id="resultado"></div>
+    <div id="tabela-imc">
+        <h2>Tabela de IMC</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Classificação</th>
+                    <th>IMC (Masculino)</th>
+                    <th>IMC (Feminino)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Abaixo do peso</td>
+                    <td>&lt; 20.7</td>
+                    <td>&lt; 19.1</td>
+                </tr>
+                <tr>
+                    <td>Peso normal</td>
+                    <td>20.7 - 26.4</td>
+                    <td>19.1 - 25.8</td>
+                </tr>
+                <tr>
+                    <td>Sobrepeso</td>
+                    <td>26.4 - 27.8</td>
+                    <td>25.8 - 27.3</td>
+                </tr>
+                <tr>
+                    <td>Obesidade grau I</td>
+                    <td>27.8 - 31.1</td>
+                    <td>27.3 - 32.3</td>
+                </tr>
+                <tr>
+                    <td>Obesidade grau II</td>
+                    <td>31.1 - 45.4</td>
+                    <td>32.3 - 44.8</td>
+                </tr>
+                <tr>
+                    <td>Obesidade grau III</td>
+                    <td>&gt; 45.4</td>
+                    <td>&gt; 44.8</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="imc.js"></script>
+</body>
+</html>
