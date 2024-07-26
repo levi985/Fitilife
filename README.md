@@ -55,9 +55,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 
 Estamos continuamente melhorando o **FitLife**. Fique atento para futuras atualizações e novas funcionalidades!
 
-## Demonstração
-
-Você pode acessar uma demonstração do site [aqui](https://levi985.github.io/fitlife/).
 
 ---
 
