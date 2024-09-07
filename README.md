@@ -24,7 +24,7 @@
 
 1. **Clone o repositório**:
     ```bash
-    git clone https://github.com/seu-usuario/fitlife.git
+    git clone https://github.com/levi985/fitlife.git
     ```
 2. **Navegue até o diretório do projeto**:
     ```bash
