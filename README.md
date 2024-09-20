@@ -20,27 +20,6 @@
 - `tmb.js`: Lógica JavaScript para a calculadora de TMB.
 - `gordura.js`: Lógica JavaScript para a calculadora de gordura corporal.
 
-## Como Utilizar
-
-1. **Clone o repositório**:
-    ```bash
-    git clone https://github.com/levi985/fitlife.git
-    ```
-2. **Navegue até o diretório do projeto**:
-    ```bash
-    cd fitlife
-    ```
-3. **Abra o arquivo `index.html` em um navegador**:
-    ```bash
-    start index.html
-    ```
-
-## Tecnologias Utilizadas
-
-- HTML5
-- CSS3
-- JavaScript
-
 ## Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
