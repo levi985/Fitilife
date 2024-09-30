@@ -29,6 +29,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 - **Nome**: Levi Henrique
 - **Email**: henriquelevi91@gmail.com
 - **GitHub**: [levi985](https://github.com/levi985)
+- [FITLIFE](https://levi985.github.io/Fitilife/tbm.html)
 
 ## Atualizações Futuras
 
